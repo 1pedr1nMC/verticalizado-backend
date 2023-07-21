@@ -1,5 +1,4 @@
 const express = require("express");
-const app = require("./app");
 const userController = require("./controllers/userController");
 const locationController = require("./controllers/locationController");
 const editalController = require("./controllers/editalController");

@@ -33,7 +33,7 @@ const favoriteEdital = async (req, res) => {
 }
 const removeFavoriteEdital = async (req, res) => {
     try {
-        if (!req.body.userId || !req.body.editalId) {
+        if (!req.body.userId || !req.body.controlmd) {
             return res.status(400).json({ message: 'Invalid request. Missing userId or editalId.' });
         }
         const { userId, editalId } = req.body;
